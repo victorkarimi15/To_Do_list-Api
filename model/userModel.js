@@ -30,9 +30,9 @@ const userSchema = new Schema({
         },
         description: String
     }], 
-    "page": 1,
-    "limit": 10,
-    "total": 2
+    // "page": 1, page: { type: Number, default: 1 }, // ✅ correct
+    // "limit": 10,
+    // "total": 2
 
 });
 
